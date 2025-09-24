@@ -33,7 +33,7 @@ Entre na pasta `backend`, instale dependências e inicie o servidor:
 - pelo cmd ou terminal do seu editor
 - cd back-end
 - npm install express cors body-parser
-- node server.jsa
+- node server.js
 
 O backend vai rodar em:  
 Deve aparecer isso: http://localhost:3000
