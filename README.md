@@ -10,7 +10,8 @@ Lanchonete Online
 - Gravar pedidos em `backend/pedidos.json`.
 
 ## Estrutura do projeto
-#lanchonete/
+```
+lanchonete/
 ├── backend/
 │   ├── server.js       # Servidor Node.js (API)
 │   ├── cardapio.json   # Cardápio inicial
@@ -19,6 +20,7 @@ Lanchonete Online
     ├── index.html      # Interface do cardápio
     ├── style.css       # Estilos da página
     └── script.js       # Lógica do frontend
+```
 
  Como rodar o projeto:
 
