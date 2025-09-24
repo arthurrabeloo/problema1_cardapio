@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lanchonete Online</h1>
+
+  <input type="text" id="search" placeholder="Buscar item...">
+
+  <h2>Cardápio</h2>
+  <div id="cardapio"></div>
+
+  <h2>Carrinho</h2>
+  <ul id="carrinho"></ul>
+  <p>Subtotal: R$ <span id="subtotal">0.00</span></p>
+  <p>Total: R$ <span id="total">0.00</span></p>
+
+  <h2>Finalizar Pedido</h2>
+  <form id="pedidoForm">
+    <input type="text" id="nomeCliente" placeholder="Seu nome" required>
+    <input type="text" id="observacoes" placeholder="Observações">
+    <button type="submit">Enviar Pedido</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
