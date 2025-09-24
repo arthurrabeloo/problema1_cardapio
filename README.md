@@ -1,7 +1,7 @@
 Lanchonete Online
 
 
- Funcionalidades
+ ### Funcionalidades
 - Listar cardápio (nome, categoria e preço).
 - Buscar item por nome.
 - Adicionar itens ao carrinho.
@@ -10,7 +10,7 @@ Lanchonete Online
 - Gravar pedidos em `backend/pedidos.json`.
 
 ## Estrutura do projeto
-lanchonete/
+#lanchonete/
 ├── backend/
 │   ├── server.js       # Servidor Node.js (API)
 │   ├── cardapio.json   # Cardápio inicial
