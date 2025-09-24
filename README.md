@@ -30,10 +30,10 @@ cd problema1_cardapio
 
 ### 2. Rodar o backend
 Entre na pasta `backend`, instale dependências e inicie o servidor:
-pelo cmd ou terminal do seu editor
-cd back-end
-npm install express cors body-parser
-node server.jsa
+- pelo cmd ou terminal do seu editor
+- cd back-end
+- npm install express cors body-parser
+- node server.jsa
 
 O backend vai rodar em:  
 Deve aparecer isso: http://localhost:3000
